@@ -43,6 +43,7 @@
             </MenuItem>
             <MenuItem x:Name="aboutMenuItem" Header="_About" Click="aboutMenuItem_Click"/>
             <MenuItem x:Name="updateMenuItem" Header="_Get New Version" Visibility="Collapsed" Click="updateMenuItem_Click"/>
+            <MenuItem x:Name="aboutMenuItem_Copy" Header="Settings" Click="configMenu_Click"/>
         </Menu>
 
         <TabControl x:Name="mainTabControl" DockPanel.Dock="Bottom">

@@ -423,6 +423,13 @@ namespace MCDSaveEdit
             aboutWindow.ShowDialog();
         }
 
+        private void configMenu_Click(object sender, RoutedEventArgs e)
+        {
+            EventLogger.logEvent("configMenu_Click");
+            var configWindow = WindowFactory.createConfigWindow();
+            configWindow.ShowDialog();
+        }
+
         private void updateMenuItem_Click(object sender, RoutedEventArgs e)
         {
             EventLogger.logEvent("updateMenuItem_Click");
