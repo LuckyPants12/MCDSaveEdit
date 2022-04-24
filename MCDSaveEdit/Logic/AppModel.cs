@@ -116,7 +116,7 @@ namespace MCDSaveEdit
 
         private static bool unlockPakIndex(PakIndex pakIndex)
         {
-            foreach(var keyStr in Secrets.PAKS_AES_KEY_STRINGS)
+            foreach(var keyStr in new string[] { Properties.Settings.Default["AES_KEY"].ToString(),})
             {
                 byte[] keyBytes;
                 if (keyStr.StartsWith("0x"))
