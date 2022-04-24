@@ -63,6 +63,10 @@ The default location for these files is: `%localappdata%\Mojang\products\dungeon
 
 If you have the Microsoft Store version, this will need to be changed to the path you selected when you ran the storepatcher script or wherever you copied your game files to.
 
+<img src="Screenshots/ChangeAESKey.png/"/>
+
+If your pak location is correct but the paks still wont load, please try loading in without any game content, go to settings in the top > enter the valid pak key for the version of minecraft Dungeons which you are using the pak files of. Close the whole application and open it again , it should work now.
+
 
 ##### Application Stopped Working
 
