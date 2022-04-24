@@ -1,4 +1,4 @@
-﻿using System.Windows;
+using System.Windows;
 using System.Windows.Controls;
 using System.Windows.Media;
 #nullable enable
@@ -97,5 +97,13 @@ namespace MCDSaveEdit
             aboutWindow.Owner = Application.Current.MainWindow;
             return aboutWindow;
         }
+
+        public static ConfigWindow createConfigWindow()
+        {
+            var configWindow = new ConfigWindow();
+            configWindow.Owner = Application.Current.MainWindow;
+            return configWindow;
+        }
+
     }
 }
