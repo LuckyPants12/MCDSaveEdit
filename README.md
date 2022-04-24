@@ -8,7 +8,7 @@
 Windows application for modifying [Minecraft: Dungeons](https://www.minecraft.net/en-us/about-dungeons/) save files.
 
 #### DISCLAIMER: Please keep backups of your save files! This app does not guarantee your save file to be playable after editing!
-
+(Note this a a fork, i may just update the fork to have latest releases if its just simple version updates, credit for orginal still goes to the owner)
 
 <img src="Screenshots/screenshot.png"/>
 
