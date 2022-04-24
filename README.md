@@ -73,40 +73,6 @@ MCDSaveEdit has a dependency on .NET Framework 4.7.1 so you could try installing
 
 ---
 
-### Compiling
-This application was developed entirely in Visual Studio 2019.
-
-When cloning be sure to recurse through submodules because there are 2:
-- [DungeonTools](https://github.com/CutFlame/DungeonTools/tree/save-file-editor-1.1)
-- [PakReader](https://github.com/CutFlame/PakReader/tree/MCDSaveEdit)
-
-Provide the AES key to decrypt the game files:
-
-`MCDSaveEdit\Data\Secrets.cs`
-```csharp
-namespace MCDSaveEdit
-{
-    public static class Secrets
-    {
-        // Fill in the value for this one
-        public static string[] PAKS_AES_KEY_STRINGS = new string[] {
-            "<AES key for unlocking the MCD .pak files>",
-        };
-
-        // You can leave these empty, they just need to exist
-        public const string GAME_ANALYTICS_GAME_KEY = "";
-        public const string GAME_ANALYTICS_SECRET_KEY = "";
-    }
-}
-```
-
-Another bit of trouble you might run into is the error: "The referenced component 'Windows' could not be found" in `MCDSaveEdit/Data/Constants.cs` line 3: `using Windows.Management.Deployment;`
-- Try the accepted answer [here](https://stackoverflow.com/questions/54454214/how-to-access-windows-management-deployment-namespace-in-a-desktop-project-in-vs).
-- This bit of code is only required for the Microsoft Store version, so if you have the launcher version you can just comment out lines 3 and 54 through 61.
-
-
----
-
 ### Legal Disclaimer
 
 This project is not affiliated with Mojang Studios, XBox Game Studios, Double Eleven or the Minecraft brand.
