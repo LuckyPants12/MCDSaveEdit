@@ -1,14 +1,15 @@
 # &nbsp;[![icon](MCDSaveEdit/Properties/icon.ico)]() Minecraft: Dungeons Save File Editor
 [![GitHub](https://img.shields.io/github/license/cutflame/mcdsaveedit)](https://github.com/CutFlame/MCDSaveEdit/blob/master/LICENSE)
-[![GitHub release (latest by date)](https://img.shields.io/github/v/release/cutflame/mcdsaveedit?label=latest)](https://github.com/CutFlame/MCDSaveEdit/releases/latest)
-[![GitHub Release Date](https://img.shields.io/github/release-date/cutflame/mcdsaveedit)](https://github.com/CutFlame/MCDSaveEdit/releases/latest)
-[![GitHub all releases](https://img.shields.io/github/downloads/cutflame/mcdsaveedit/total)](https://github.com/CutFlame/MCDSaveEdit/releases)
+[![GitHub release (latest by date)](https://img.shields.io/github/v/release/LuckyPants12/mcdsaveedit?label=latest)](https://github.com/LuckyPants12/MCDSaveEdit/releases/latest)
+[![GitHub Release Date](https://img.shields.io/github/release-date/LuckyPants12/mcdsaveedit)](https://github.com/LuckyPants12/MCDSaveEdit/releases/latest)
+[![GitHub all releases](https://img.shields.io/github/downloads/LuckyPants12/mcdsaveedit/total)](https://github.com/LuckyPants12/MCDSaveEdit/releases)
 [![Patreon pledgers](https://img.shields.io/endpoint?url=https%3A%2F%2Fshieldsio-patreon.vercel.app%2Fapi%3Fusername%3Dcutflame%26type%3Dpatrons&style=flat)](https://patreon.com/cutflame)
 
 Windows application for modifying [Minecraft: Dungeons](https://www.minecraft.net/en-us/about-dungeons/) save files.
 
 #### DISCLAIMER: Please keep backups of your save files! This app does not guarantee your save file to be playable after editing!
-(Note this a a fork, i may just update the fork to have latest releases if its just simple version updates, credit for orginal still goes to the owner)
+(Note this a a fork, i may just update the fork to have latest releases if its just simple version updates, credit for orginal still goes to the owner,
+Their repository can be found at https://github.com/CutFlame/MCDSaveEdit)
 
 <img src="Screenshots/screenshot.png"/>
 
